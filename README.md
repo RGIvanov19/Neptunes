@@ -27,9 +27,9 @@ School project
 Radoslav Ivanov - 9**V**  ->  Scrum Trainer   
 Raya Lilova - 10**B**    
 Stivan Lilov - 10**B**    
-Venelin Nikolov - 8   
-Georgi Kotakov - 8   
-Svetoslav Stoilov - 8 
+Venelin Nikolov - 8**G**   
+Georgi Kotakov - 8**G**   
+Svetoslav Stoilov - 8**G** 
 
 [Back To The Top](#team-Neptunes)
 
