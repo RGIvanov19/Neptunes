@@ -1,5 +1,4 @@
 body{
-    background-image: url(https://wallpapercave.com/wp/wp5727862.jpg);
     font-family: 'Jura', sans-serif;
 }
 a{
@@ -7,7 +6,7 @@ a{
 }
 /*      Navbar      */
 .navbar{
-    margin: -10px 0 50px -10px;
+    margin: -10px -8px 50px -10px;
 	padding: 14px;
 	/*position: fixed;*/
 	list-style-type: none;
@@ -49,4 +48,48 @@ a{
     margin-bottom: 10px;
     border-radius: 20px;
     border: solid 0;
+}
+@media screen and (max-width: 800px){
+    body{
+        width: 800px;
+    }
+    /*      Navbar      */
+    .navbar{
+        margin: -10px -8px 50px -10px;
+        padding: 50px;
+        list-style-type: none;
+        overflow: hidden;
+        background-color: #272727;
+    }
+    .navbar a{
+        font-size: 30px;
+    }
+    /*      Sing in and Sing up    */
+    .form{
+        border: solid 1px;
+        border-radius: 10px;
+        background-color: rgba(128,128,128,0.4);
+        width: 100%;
+    }
+    .form__title{
+        font-size: 75px;
+    }
+    .inpute_info{
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        border: solid 0;
+        font-size: 35px;
+    }
+    .sing{
+        margin-top: 10px;
+        padding: 5px 10px;
+        font-size: 35px;
+    }
+    form label{
+        font-size: 35px;
+    }
+    form p{
+        font-size: 35px;
+    }
 }
