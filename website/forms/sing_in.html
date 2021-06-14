@@ -6,18 +6,27 @@
         <title>Sing in</title>
 
         <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../font-awesome/css/all.min.css">
     </head>
     <body>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
+        <script src="../js/icon.js"></script>
 
         <header>
             <ul class="navbar">
                 <li class="navhome"><a href="../index.html">Home</a></li>
-                <li><a href="sing_in.html" style="position: absolute;right: 120px;">Sing in</a></li>
-                <li><a href="sing_up.html" style="position: absolute;right: 45px;">Sing up</a></li>
+                <li><a class="icon-profile"><i class="far fa-user"></i></a></li>
             </ul>
+
+                <nav class="main-profile">
+                    <ul style="margin-bottom: 12px!important;list-style: none;padding-left: 15px;">
+                        <li><a class="btn otherbtn" href="sing_in.html">Sing in</a></li>
+                        <li><a class="btn otherbtn" href="sing_up.html">Sing up</a></li>
+                </ul>
+                </nav>
         </header>
 
-        <div class="form">
+        <div class="form" style="margin-top: 50px;">
             <form>
                 <h1 class="form__title" style="text-align: center; margin-bottom: 20px;margin-top: 50px;">Sing in</h1>
                 
