@@ -29,7 +29,7 @@ Raya Lilova - 10**B**
 Stivan Lilov - 10**B**    
 Venelin Nikolov - 8**G**   
 Georgi Kotakov - 8**G**   
-Svetoslav Stoilov - 8**G** 
+Svetoslav Stoilov - 8**G**  ->  CSS and JavaScript Developer
 
 [Back To The Top](#team-Neptunes)
 
