@@ -2,6 +2,8 @@ var lang = {};
 
 lang.bg = {
 			_HOME: 'Нaчало',
+			_AboutUs: 'За нас',
+			_AboutPr: 'За програмата',
 			_SIGNIN: 'Влизане',
 			_SIGNUP: 'Регистрация',
 			_UName: 'Потребителско име',
@@ -16,6 +18,8 @@ lang.bg = {
 
 lang.en = {
 			_HOME: 'Home',
+			_AboutUs: 'About us',
+			_AboutPr: 'About programme',
 			_SIGNIN: 'Sing in',
 			_SIGNUP: 'Sing up',
 			_UName: 'User name',

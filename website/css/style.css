@@ -1,12 +1,19 @@
 body{
     font-family: 'Jura', sans-serif;
+    background-image: url(https://wallpapercave.com/wp/wp4676582.jpg);
+    background-attachment: fixed;
 }
 a{
     color: #197fe5;
 }
 /*      Navbar      */
+header{
+    position: fixed;
+    width: 100%;
+    margin-top: -90px;
+}
 .navbar{
-    margin: -10px -8px 0 -10px;
+    margin: -1% -8px 0 -10px;
 	padding: 14px;
 	/*position: fixed;*/
 	list-style-type: none;
@@ -27,14 +34,14 @@ a{
 .navhome{
     margin-left: 5px;
 }
-.icon-profile{
+/*.icon-profile{
     position: absolute;
     right: 45px;
     font-size: 18px!important;
 }
 .main-profile{
     position: absolute;
-    top: -100%;
+    top: -500%;
     right: 30px;
     background-color: #fff;
     width: 120px;
@@ -42,24 +49,24 @@ a{
     border-radius: 10px;
 }
 .main-profile.active{
-    top: 45px!important;
+    top: 40px!important;
 }
 .main-profile a{
     color: #000;
     text-decoration: none;
     font-size: 17px;
-}
+}*/
 .main-language{
     position: absolute;
-    top: -100%;
-    right: 70px;
+    top: -500%;
+    right: 45px;
     background-color: #fff;
     width: 130px;
     border: solid 1px rgb(156, 163, 175);
     border-radius: 10px;
 }
 .main-language.active{
-    top: 45px!important;
+    top: 30px!important;
 }
 /*      Sing in and Sing up    */
 .form{
@@ -83,7 +90,36 @@ a{
     border-radius: 20px;
     border: solid 0;
 }
+/*      Content     */
+.space{
+    margin: 50%;
+}
+.about-prg{
+    text-align: center;
+    background-color: #fff;
+    padding: 40px 0;
+    margin: 0 -8px 0 -8px!important;
+}
+.about-prg p{
+    text-align: justify;
+    font-size: 18px;
+}
+.about-us{
+    text-align: center;
+    color: #fff;
+    background-color: #272727;
+    padding: 40px 0;
+    margin: -8px!important;
+}
+.about-us p{
+    text-align: justify;
+    font-size: 18px;
+}
+.about-prg h1,.about-us h1{
+    text-decoration: underline;
+}
 @media screen and (max-width: 800px){
+    /*          Mobile        */
     body{
         width: 800px;
     }
