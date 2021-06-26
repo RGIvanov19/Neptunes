@@ -3,6 +3,6 @@ $(document).ready(function(){
             $('.main-profile').toggleClass('active');
         });*/
         $('.icon-language').click(function(){
-            $('.main-language').toggleClass('active');
+            $('.main-language, .main-language_about').toggleClass('active');
         });
 }); 
