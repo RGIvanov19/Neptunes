@@ -1,7 +1,8 @@
 body{
     font-family: 'Jura', sans-serif;
-    background-image: url(https://wallpapercave.com/wp/wp4676582.jpg);
+    background-image: url(https://img.wallpapersafari.com/desktop/1600/900/0/56/avkgBW.jpg);
     background-attachment: fixed;
+    background-size: 100%;
     margin: 0!important;
 }
 a{
@@ -13,7 +14,7 @@ a{
     width: 100%;
 }
 .navbar{
-    margin: -1.4% -8px 0 -10px;
+    margin: 0 -8px 0 -10px;
 	padding: 14px;
 	list-style-type: none;
 	overflow: hidden;
@@ -47,101 +48,34 @@ a{
     top: 45px!important;
 }
 .main-language.active{
-    top: 25px!important;
-}
-/*      Sing in and Sing up    */
-.form{
-    border: solid 1px;
-    border-radius: 10px;
-    background-color: rgba(128,128,128,0.4);
-    width: 500px;
-    margin: auto;
-}
-.form form{
-    text-align: center;
-}
-.sing{
-    margin-top: 10px;
-    padding: 5px 10px;
-    font-size: 15px;
-}
-.inpute_info{
-    padding: 10px 20px;
-    margin-bottom: 10px;
-    border-radius: 20px;
-    border: solid 0;
+    top: 45px!important;
 }
 /*      Content     */
-.space{
-    margin: 50%;
+.cont{
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 20.5%;
+    width: 50%;
 }
-.about-prg{
-    width: 100%;
+.cont__text h1{
     text-align: center;
-    background-color: #fff;
-    padding: 40px 0;
 }
-.about-prg p{
+.cont__text p{
     text-align: justify;
-    font-size: 18px;
+    font-size: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 75%;
 }
-.about-us{
-    width: 100%;
+.btn{
+    margin: 150px 0 50px 375px;
+    margin-bottom: 50px;
+    margin-left: 375px;
+    padding: 20px 15px;
     text-align: center;
+    font-size: 18px;
+    background-color: #005BA4;
     color: #fff;
-    background-color: #272727;
-    padding: 40px 0;
-}
-.about-us p{
-    text-align: justify;
-    font-size: 18px;
-}
-.about-prg a{
-    text-decoration: none;
-    color: #000;
-}
-@media screen and (max-width: 800px){
-    /*          Mobile        */
-    body{
-        width: 800px;
-    }
-    /*      Navbar      */
-    .navbar{
-        margin: -10px -8px 50px -10px;
-        padding: 50px;
-        list-style-type: none;
-        overflow: hidden;
-        background-color: #272727;
-    }
-    .navbar a{
-        font-size: 30px;
-    }
-    /*      Sing in and Sing up    */
-    .form{
-        border: solid 1px;
-        border-radius: 10px;
-        background-color: rgba(128,128,128,0.4);
-        width: 100%;
-    }
-    .form__title{
-        font-size: 75px;
-    }
-    .inpute_info{
-        padding: 10px 20px;
-        margin-bottom: 10px;
-        border-radius: 20px;
-        border: solid 0;
-        font-size: 35px;
-    }
-    .sing{
-        margin-top: 10px;
-        padding: 5px 10px;
-        font-size: 35px;
-    }
-    form label{
-        font-size: 35px;
-    }
-    form p{
-        font-size: 35px;
-    }
 }
