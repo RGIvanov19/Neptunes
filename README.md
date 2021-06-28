@@ -25,7 +25,7 @@ School project
 
 
 Radoslav Ivanov - 9**V**    
-Raya Lilova - 10**B**  -> Scrum
+Raya Lilova - 10**B**  -> Scrum Trainer   
 Stivan Lilov - 10**B**    
 Venelin Nikolov - 8**G**  ->  Designer    
 Georgi Kotakov - 8**G**  ->  CSS and JavaScript Developer  
