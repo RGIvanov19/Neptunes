@@ -5,6 +5,19 @@
 using namespace std;
 
 
+
+void displayLogo()
+{
+    system("Color b");
+ 
+    cout << "      _      _     _______      ________     _____________      __      __       _      _     _______       ________     " << endl;
+    cout << "     | \\    | |   |  _____|    |   __   |   |_____  ______|    | |      | |     | \\    | |   |  _____|     |  ______|    " << endl;
+    cout << "     |  \\   | |   | |_____     |  |__|  |        |  |          | |      | |     |  \\   | |   | |_____      | |______     " << endl;
+    cout << "     | |\\ \\ | |   |  _____|    |   _____|        |  |          | |      | |     | |\\ \\ | |   | ______|     |______  |    " << endl;
+    cout << "     | | \\ \\| |   | |_____     |  |              |  |          | |______| |     | | \\ \\| |   | |_____       ______| |    " << endl;
+    cout << "     |_|  \\ __|   |_______|    |__|              |__|          |__________|     |_|  \\ __|   |_______|     |________|    " << endl;
+}
+
 void infoAboutUs()
 
 {
@@ -21,7 +34,11 @@ void infoAboutUs()
 void infoAboutWaters()
 
 {
-    system("Color e");
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    system("Color 4");
 
     cout << setw(55) << "Water" << endl;
     cout << endl;
@@ -30,7 +47,11 @@ void infoAboutWaters()
 
 void ourIdea()
 {
-    system("Color d");
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    system("Color b");
     cout << setw(55) << "Our Idea" << endl;
     cout << endl;
     cout << "The application is designed to monitor different water and saltwater pools. Measurement of temperature and water level as well as the condition of living organisms in it. In an emergency, the application notifies the authorities as well as rescuersand veterinarians." << endl;
@@ -40,7 +61,16 @@ void ourIdea()
 
 bool showMainList()
 {
+
+
     int choice;
+
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+    cout << endl;
+
 
 
     cout << setw(75) << "_____________________________________________" << endl;
@@ -52,7 +82,11 @@ bool showMainList()
     cout << setw(76) << "|_____________________________________________|" << endl;
 
     cin >> choice;
-
+    /*if (choice != 1 or choice != 2 or choice != 3 or choice != 4)
+    {
+        cout << "Incorrect input. Please try again!" << endl;
+        cin >> choice;
+    }*/
     switch (choice)
     {
     case 1:
@@ -65,16 +99,19 @@ bool showMainList()
         ourIdea();
         break;
     case 4:
-        return false;
+        exit(0);
+        break;
+    default:
+        cout << "Incorrect input. Please try again!" << endl;
     }
-    return true;
+
 }
 
 
 int main()
 {
     bool doShowMenu = true;
-
+    displayLogo();
     do
     {
         showMainList();
@@ -84,5 +121,5 @@ int main()
         }
     } while (doShowMenu);
 
-
+    
 }
