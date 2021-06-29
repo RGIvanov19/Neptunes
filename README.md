@@ -24,9 +24,9 @@ School project
 ## About us<img align="left" width="40" height="40" src="https://user-images.githubusercontent.com/56883533/110394059-70163f80-8074-11eb-97c2-18d7c168f05f.png" >
 
 
-Radoslav Ivanov - 9**V**    
+Radoslav Ivanov - 9**V**  ->  c++ application  
 Raya Lilova - 10**B**  -> Scrum Trainer   
-Stivan Lilov - 10**B**    
+Stivan Lilov - 10**B**    -> Presentation  
 Venelin Nikolov - 8**G**  ->  Designer    
 Georgi Kotakov - 8**G**  ->  CSS and JavaScript Developer  
 Svetoslav Stoilov - 8**G**  ->  HTML Developer
